@@ -70,7 +70,7 @@ def strobe(fc):
     time.sleep(0.05)
 
 def chase(fc):
-    pixels = [(0, 0, 0)] * NUM_PIXELS
+    pixels = [GREEN] * NUM_PIXELS
 
     for i in range(NUM_PIXELS):
         pixels[i] = ORANGE
